@@ -198,15 +198,6 @@ EXTERN_C BOOLEAN Execute(PBOOLEAN IsRetailFormatted)
 	PPARTITION_INFORMATION p0DiskPartitionInfo = &((PSATA_DISK_EXTENSION)p0DeviceObject->DeviceExtension)->PartitionInformation;
 	PPARTITION_INFORMATION p1DiskPartitionInfo = &((PSATA_DISK_EXTENSION)p1DeviceObject->DeviceExtension)->PartitionInformation;
 
-	#ifndef _DEBUG
-	//A quick and easy way to check if Bad Storage has already executed is to check if Partition0's size is updated.
-	if (p0DiskPartitionInfo->PartitionLength.QuadPart == phyDiskPartitionInfo->PartitionLength.QuadPart)
-	{
-		Print("Bad Storage already completed successfully.");
-		return TRUE;
-	}
-	#endif
-
 	HANDLE diskHandle = OpenDisk(PARTITION_1_PATH, TRUE);
 	if (diskHandle == INVALID_HANDLE_VALUE)
 	{
@@ -221,6 +212,16 @@ EXTERN_C BOOLEAN Execute(PBOOLEAN IsRetailFormatted)
 		//XNotifyQueueUI(XNOTIFYUI_TYPE_AVOID_REVIEW, XUSER_INDEX_ANY, XNOTIFYUI_PRIORITY_HIGH, L"BadStorage FAILURE: Disk is not formatted for Bad Storage. Reformat using FATXplorer.", 0);
 		goto cleanupAndExit;
 	}
+
+	#ifndef _DEBUG
+	//A quick and easy way to check if Bad Storage has already executed is to check if Partition0's size is updated.
+	if (p0DiskPartitionInfo->PartitionLength.QuadPart == phyDiskPartitionInfo->PartitionLength.QuadPart)
+	{
+		Print("Bad Storage already completed successfully.");
+		ret = TRUE;
+		goto cleanupAndExit;
+	}
+	#endif
 
 	XContent_DEVICEADDREMOVETASK task;
 	task.pszDevicePath = PARTITION_1_PATH;
