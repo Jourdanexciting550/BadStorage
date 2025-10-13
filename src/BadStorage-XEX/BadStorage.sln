@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadStorage", "BadStorage\BadStorage.vcxproj", "{B989E90E-FB9A-486C-839C-80845F618699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Retail|Xbox 360 = Debug_Retail|Xbox 360
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B989E90E-FB9A-486C-839C-80845F618699}.Debug_Retail|Xbox 360.ActiveCfg = Debug_Retail|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Debug_Retail|Xbox 360.Build.0 = Debug_Retail|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Debug_Retail|Xbox 360.Deploy.0 = Debug_Retail|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Debug|Xbox 360.Deploy.0 = Debug|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{B989E90E-FB9A-486C-839C-80845F618699}.Release|Xbox 360.Deploy.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
